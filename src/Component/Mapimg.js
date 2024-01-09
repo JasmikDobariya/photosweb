@@ -14,7 +14,7 @@ const Mapimg = (props) => {
                         <h5 className="card-title head_div">{props.title}  </h5>
                         <p className="card-text dis_div">{props.dis}</p>
                         
-                            <span className="card-text price_div"><div className="text-body-secondary ">Prize Is <strong className='text-danger'>{props.price}</strong> </div></span>
+                            <span className="card-text price_div"><div className="text-body-secondary ">Price Is <strong className='text-danger'>{props.price}</strong> </div></span>
                             <button className='btn btn-success'>Order Now</button>
                         
                     </div>
